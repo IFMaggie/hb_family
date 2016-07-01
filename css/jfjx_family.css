@@ -1,0 +1,281 @@
+/* S 公用css */
+*, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "microsoft yahei";
+    font-size: 12px;
+    background: #d7c8b4;
+    width: 1349px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+.f_fl {
+    float: left;
+}
+
+.f_fr {
+    float: right;
+}
+
+/* E 公用css */
+
+/* S container */
+.container {
+    width: 1258px;
+    margin: 0 auto;
+}
+
+.container_con_top {
+    width: 1258px;
+    height: 838px;
+
+}
+
+.container_con_top .con_top1_tit img {
+    width: 948px;
+    height: 71px;
+    display: block;
+    padding-top: 55px;
+    margin: 0 auto;
+}
+
+.container_con_top .con_top1_con {
+    width: 912px;
+    height: 125px;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+}
+
+.container_con_top .con_top1_con a {
+    width: 912px;
+    display: block;
+    font-size: 16px;
+    text-indent: 2rem;
+    color: #fff;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+.container_con_top > div:nth-child(2) img {
+    width: 948px;
+    height: 99px;
+    padding: 0;
+}
+
+.container_con_top > div:nth-child(2) .con_top1_con {
+    height: 110px;
+    border-bottom: 0;
+}
+
+.container_con_top > div:nth-child(2) .con_top1_con a {
+    height: 35px;
+    line-height: 35px;
+    font-size: 22px;
+}
+
+.container_con_top .container_con_bottom {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.container_con_top .container_con_bottom ul {
+    list-style: none;
+}
+
+.container_con_top .container_con_bottom ul li {
+    float: left;
+    margin-left: 50px;
+}
+
+.container_con_top .container_con_bottom ul li a {
+    width: 350px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    display: block;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.container_con .container_con_bott {
+    margin-top: 50px;
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* 下 左 */
+.container_con .container_con_bott .con_bott_left {
+    width: 490px;
+    /*height: 1051px;*/
+    float: left;
+}
+
+.container_con_bott .con_bott_left .map {
+    width: 400px;
+    height: 292px;
+    margin-bottom: 30px;
+}
+
+.container_con_bott .con_bott_left .detail a,
+.container_con_bott .con_bott_left .detail a img {
+    width: 354px;
+    height: 344px;
+    display: block;
+    border: 0;
+}
+
+.container_con_bott .con_bott_left .people {
+    margin-top: 40px;
+}
+
+.container_con_bott .con_bott_left .people .think_img {
+    width: 46px;
+    height: 85px;
+}
+
+.con_bott_left .people .think_img img {
+    display: block;
+}
+
+.container_con_bott .con_bott_left .people ul {
+    list-style: none;
+    margin-left: 15px;
+    width: 372px;
+}
+
+.container_con_bott .con_bott_left .people ul li {
+    width: 372px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.container_con_bott .con_bott_left .people ul li .people_one a {
+    width: 76px;
+    height: 76px;
+}
+
+.container_con_bott .con_bott_left .people ul li .people_con {
+    width: 288px;
+    padding-left: 8px;
+}
+
+.container_con_bott .con_bott_left .people ul li .people_con a {
+    width: 288px;
+    font-size: 24px;
+    line-height: 37px;
+    color: black;
+}
+
+.container_con_bott .con_bott_left .people ul li .people_con a:hover {
+    width: 288px;
+    font-size: 24px;
+    line-height: 37px;
+    color: black;
+    text-decoration: underline;
+}
+
+/* 下 右 */
+.container_con .container_con_bott .con_bott_right {
+    width: 450px;
+    height: 500px;
+    float: right;
+}
+
+.con_bott_right .bott_right_poem {
+    margin-bottom: 40px;
+}
+
+.con_bott_right .bott_right_poem .con_poem_title span {
+    width: 99px;
+    height: 57px;
+    display: block;
+}
+
+.con_bott_right div:nth-child(3) .con_poem_title span {
+    background: url("../images/jfjx_icon3.png") no-repeat;
+}
+
+.con_bott_right div:nth-child(4) .con_poem_title span {
+    background: url("../images/jfjx_icon4.png") no-repeat;
+}
+
+.con_bott_right .bott_right_poem .con_poem_title a {
+    font-size: 24px;
+    color: #990000;
+    font-family: "宋体";
+    font-weight: normal;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.con_bott_right .bott_right_poem .con_poem_con {
+    margin-top: 15px;
+    width: 450px;
+    background: #fff;
+    height: 143px;
+}
+
+.con_bott_right .bott_right_poem .con_poem_con p {
+    font-family: "微软雅黑";
+    width: 383px;
+    padding-left: 35px;
+    padding-top: 13px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #111;
+}
+
+/* 轮播图 */
+.container_con .lunbo {
+    width: 924px;
+    margin: 0 auto;
+}
+
+.container_con .lunbo .lunbo_title {
+    width: 92px;
+    height: 44px;
+    margin-top: 20px;
+}
+
+.container_con .lunbo .lunbo_con {
+    width: 912px;
+    /*height: 500px;*/
+    margin: 0 auto;
+    padding-top: 70px;
+    margin-bottom: 200px;
+}
+
+.container_con .lunbo .lunbo_con .galleryview {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* E container */
+
